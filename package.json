@@ -1,0 +1,8 @@
+{
+  "name": "helloworld",
+  "main": "index.html",
+  "dependencies": {
+    "getmac": "^1.0.7",
+    "ip": "^1.1.0"
+  }
+}

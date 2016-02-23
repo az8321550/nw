@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My OS Platform</title>
+</head>
+<body>
+<script>
+//    var mac=require('getmac');
+//    mac.getMac(function(err,macAddress){
+//        if (err){
+//            alert("获取mac地址失败")
+//        }else{
+//            document.write(macAddress)
+//        }
+//    })
+
+
+    var ip = require('ip');
+    var address = ip.address()
+    document.write(address)
+</script>
+</body>
+</html>
