@@ -1,6 +1,10 @@
 {
   "name": "helloworld",
-  "main": "index.html",
+  //"main": "index.html",
+  "main": "http://www.luckyman168.com",
+  "window":{
+    "toolbar":false
+  },
   "dependencies": {
     "getmac": "^1.0.7",
     "ip": "^1.1.0"
